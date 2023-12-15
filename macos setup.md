@@ -8,6 +8,13 @@ postgres
 dbeaver
 slack
 vscode (extension: liveshare, credo, python, elixir-tools, gitlens, phoenix framework, restclient)
+	- Snippets:
+		elixir.json ->
+			"Inspect": {
+				"prefix": "ins",
+				"body": "|> IO.inspect(label: \"$0$TM_FILENAME:$1$TM_LINE_NUMBER\")",
+				"description": "Adds a pipeline with a labelled `IO.inspect`",
+			} 
 docker
 spotify
 reaper
